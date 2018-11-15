@@ -1,13 +1,13 @@
 {
-  "private": true,
-  "scripts": {
-    "deploy": "surge ./public --domain portfolio-mattc-matt.surge.sh",
-    "start": "browser-sync start --server \"public\" --files \"public\""
-  },
-  "dependencies": {
-    "browser-sync": "^2.26.3",
-    "stylelint": "^9.7.1",
-    "stylelint-config-standard": "^18.2.0",
-    "surge": "^0.20.1"
-  }
+	"private": true,
+	"scripts": {
+		"deploy": "surge public -d mattcooke.tech",
+		"start": "browser-sync start --server \"public\" --files \"public\""
+	},
+	"dependencies": {
+		"browser-sync": "^2.26.3",
+		"stylelint": "^9.7.1",
+		"stylelint-config-standard": "^18.2.0",
+		"surge": "^0.20.1"
+	}
 }
